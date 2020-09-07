@@ -1,5 +1,3 @@
-# For deplyment via Boot-script(User-data) in AWS
-
 ## Guide to deploy via User-Data for sqli lab:
 * [SQLI](sqli-penTestBootScript.md)
 
@@ -8,8 +6,8 @@
 2. Follow the code below
 ```
 sudo bash
-git clone xxx
-cd path/to/sqli-penTestLab.sh
+git clone https://github.com/Cdivyam/cloud-labs.git
+cd cloud-labs/infrastructure-security-labs/sql-injection/
 chmod +x sqli-penTestLab.sh
 ./sqli-penTestLab.sh
 ```
